@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./docs/tinder\ bg_img.webp");
+
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+label.logo {
+    padding: 0 20px;
+    line-height: 80px;
+}
+
+.nav {
+    height: 70px;
+    width: 100%;
+    z-index: 99;
+}
+
+nav ul {
+    float: right;
+    margin-right: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-top: 15px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #d94d39;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.btn-nav {
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-size: 18px;
+    border: transparent;
+    background-color: white;
+}
+
+.btn-nav:hover {
+    background-color: whitesmoke;
+}
+
+.blank {
+    padding: 0 200px;
+}
+
+.lang {
+    margin: 0 20px 0 0;
+}
+
+.lang:hover {
+    color: whitesmoke;
+}
+
+.body {
+    margin-top: 200px;
+    margin-left: 10%;
+    height: 60vh;
+}
+
+.body-epic {
+    color: white;
+    font-size: 45px;
+
+    height: 100px;
+    width: 1100px;
+    border-color: black;
+}
+
+.last-div>hr {
+    margin: 0 75px 0 75px;
+    border-color: rgba(43, 54, 68, 0.884);
+}
+
+.body-epic>h1 {
+    margin-top: 250px;
+    margin-left: 65px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-acc {
+    margin-top: 50px;
+    margin-left: 35%;
+}
+
+.btn-body {
+    border-radius: 50px;
+    width: 228.67px;
+    height: 50px;
+    border-color: transparent;
+    background-color: #d94d39;
+    color: white;
+    font-size: 20px;
+}
+
+.btn-body:hover {
+    background-color: #be5a4a;
+}
+
+.co {
+
+    background-color: #111418;
+
+}
+
+.body-box {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 16px 72px;
+
+}
+
+.box {
+    width: 30vw;
+    border-radius: 10px;
+    border: 1px solid rgba(43, 54, 68, 0.884);
+    padding: 30px;
+    margin: 10px;
+
+}
+
+.box>hr {
+    border-color: rgba(43, 54, 68, 0.884);
+}
+
+.box-h3 {
+    margin: 0 0 10px 0;
+}
+
+.box-p {
+    margin: 20px 0 0 0;
+    font-size: 14px;
+    color: #e9ebee;
+}
+
+.legal-careers-social-faq {
+    color: #e9ebee;
+    display: flex;
+    justify-content: flex-start;
+    margin: 12px 80px;
+    height: 157px;
+    width: 1256px;
+}
+
+.legal-careers-social-faq-box {
+    margin: 0 12px 8px 0;
+    height: 148px;
+    width: 251px;
+    line-height: 1.6;
+}
+
+.common-h3 {
+    margin: 0 0 10px 0;
+}
+
+.legal-careers-social-faq-box>ul>li>a {
+    color: #e9ebee;
+}
+
+.legal-careers-social-faq-box>ul>li>a:hover {
+    color: #d94d39;
+}
+
+.social-icon>a>img {
+    filter: brightness(0) invert(1);
+}
+
+.get-app {
+    width: 1256px;
+    height: 80px;
+    margin: 16px 72px 16px 72px;
+    display: flex;
+    justify-content: start;
+    color: #e9ebee;
+}
+
+.get-app-h2 {
+    width: 190px;
+    margin-top: 15px;
+}
+
+.get-app-icon-div {
+    height: 80px;
+
+}
+
+.get-app-icon {
+    height: 70px;
+    width: 175px;
+}
+
+.get-app-icon-1 {
+    height: 48px;
+    width: 170px;
+    margin: 0 20px 10px 0;
+}
+
+.co-text {
+    margin: 20px 75px;
+    color: #e9ebee;
+    font-size: 12px;
+}
+
+.co-text>hr {
+    border-color: rgba(43, 54, 68, 0.884);
+    margin-top: 20px;
+}
+
+.rights-2023 {
+    margin: 10px 75px;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+.a-2023 {
+    color: #e9ebee;
+    font-size: 12px;
+}
+
+.rights {
+    color: #e9ebee;
+    font-size: 12px;
+}
+
+.rights>a {
+    color: #e9ebee;
+    font-size: 12px;
+    margin: 0 5px 0 0;
+}
+
+.rights>a:hover {
+    color: #d94d39;
+}
+
+.dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #e9ebee;
+    font-size: 12px;
+    padding-bottom: 11px;
+}
